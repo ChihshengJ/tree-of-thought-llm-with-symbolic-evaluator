@@ -1,10 +1,11 @@
-python run.py \
+python3 run.py \
+    --backend gemini-1.5-pro \
     --task game24 \
-    --task_start_index 900 \
-    --task_end_index 1000 \
+    --task_start_index 861 \
+    --task_end_index 900 \
     --method_generate propose \
-    --method_evaluate value \
+    --method_evaluate symbolic \
     --method_select greedy \
     --n_evaluate_sample 3 \
-    --n_select_sample 5 \
-    ${@}
+    --n_select_sample 7 \
+    --system_prompt 1 \

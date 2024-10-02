@@ -1,0 +1,1941 @@
+[
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "4 7 7 11",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "Input: 4 7 7 11\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n",
+                    "7 * 7 = 49 (left: 4 11 49)\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n"
+                ],
+                "values": [
+                    0.001,
+                    0.003,
+                    0.001,
+                    20.002,
+                    0.003
+                ],
+                "select_new_ys": [
+                    "7 * 7 = 49 (left: 4 11 49)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n",
+                    "Input: 4 7 7 11\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "4 7 7 11",
+                "ys": [
+                    "7 * 7 = 49 (left: 4 11 49)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n",
+                    "Input: 4 7 7 11\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n"
+                ],
+                "new_ys": [
+                    "7 * 7 = 49 (left: 4 11 49)\n11 * 4 = 44 (left: 44 49)\n",
+                    "7 * 7 = 49 (left: 4 11 49)\n49 - 4 = 45 (left: 11 45)\n",
+                    "7 * 7 = 49 (left: 4 11 49)\n49 / 11 = 4 (left: 4 4)\n",
+                    "7 * 7 = 49 (left: 4 11 49)\n11 + 4 = 15 (left: 15 49)\n",
+                    "7 * 7 = 49 (left: 4 11 49)\n4 + 11 = 15 (left: 15 49)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 * 7 = 77 (left: 77)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nPossible next steps:\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n11 - 7 = 4 (left: 1 4)\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n11 / 7 = 1 (left: 1 1)\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n11 / 1 = 11 (left: 7 11)\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n7 * 1 = 7 (left: 7 11)\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n1 + 7 = 8 (left: 8 11)\n",
+                    "Input: 4 7 7 11\n4 + 7 = 11 (left: 7 7 11)\n",
+                    "Input: 4 7 7 11\n11 + 4 = 15 (left: 7 7 15)\n",
+                    "Input: 4 7 7 11\n11 - 4 = 7 (left: 7 7 7)\n",
+                    "Input: 4 7 7 11\nPossible next steps:\n",
+                    "Input: 4 7 7 11\n11 / 4 = 2 (left: 2 7 7)\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 - 7 = 0 (left: 0 7)\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 * 7 = 49 (left: 49)\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n",
+                    "11 - 4 = 7 (left: 7 7 7)\nInput: 7 7 7\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 / 7 = 1 (left: 1 7)\n"
+                ],
+                "values": [
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003,
+                    1.002,
+                    1.002,
+                    0.002,
+                    0.0,
+                    20.0,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003,
+                    1.002,
+                    0.003,
+                    0.003,
+                    0.001,
+                    0.0,
+                    1.002,
+                    0.003,
+                    0.002,
+                    21.001,
+                    0.001,
+                    0.002
+                ],
+                "select_new_ys": [
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n1 + 7 = 8 (left: 8 11)\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "4 7 7 11",
+                "ys": [
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n1 + 7 = 8 (left: 8 11)\n"
+                ],
+                "new_ys": [
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n7 + 14 = 21\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\nInput: 7 14\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 / 7 = 2\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\nPossible next steps:\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 - 7 = 4 (left: 4 11)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 * 7 = 77 (left: 11 77)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 + 11 = 22 (left: 7 22)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 / 7 = 1 (left: 1 11)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\nPossible next steps:\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n11 + 18 = 29\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\nInput: 11 18\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\nPossible next steps:\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n18 / 11 = 1 (left: 1)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n18 - 11 = 7\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\nInput: 11 18\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\nPossible next steps:\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n11 + 18 = 29\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n18 - 11 = 7\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n11 * 18 = 198\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n1 + 7 = 8 (left: 8 11)\nInput: 8 11\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n1 + 7 = 8 (left: 8 11)\nPossible next steps:\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n1 + 7 = 8 (left: 8 11)\n8 + 11 = 19\n",
+                    "7 / 4 = 1 (left: 1 7 11)\n1 + 7 = 8 (left: 8 11)\n11 - 8 = 3\n"
+                ],
+                "values": [
+                    0.002,
+                    0.003,
+                    20.002,
+                    0.0,
+                    60.0,
+                    0.003,
+                    0.003,
+                    40.001,
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.001,
+                    0.0,
+                    0.003,
+                    60.0,
+                    0.001,
+                    0.0,
+                    0.003,
+                    60.0,
+                    20.002,
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.003
+                ],
+                "select_new_ys": [
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n18 - 11 = 7\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n18 - 11 = 7\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 + 11 = 22 (left: 7 22)\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 / 7 = 2\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "4 7 7 11",
+                "ys": [
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n18 - 11 = 7\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n18 - 11 = 7\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 + 11 = 22 (left: 7 22)\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 / 7 = 2\n"
+                ],
+                "new_ys": [
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\nInput: 14 - 7 = 7\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\nPossible next steps:\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n7 + 7 = 14\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n7 * 7 = 49\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n7 - 7 = 0\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n18 - 11 = 7\n7 * 18 = 126\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n18 - 11 = 7\n11 + 7 = 18\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n18 - 11 = 7\n7 + 18 = 25\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n18 - 11 = 7\n18 / 7 = 2 (left: 2 11)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n7 + 11 = 18 (left: 11 18)\n18 - 11 = 7\nPossible next steps:\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n18 - 11 = 7\n7 + 18 = 25\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n18 - 11 = 7\n18 / 7 = 2 (left: 2 11)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n18 - 11 = 7\nInput: 18 - 11 = 7\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n18 - 11 = 7\n11 + 7 = 18\n",
+                    "7 + 4 = 11 (left: 7 11 11)\n11 + 7 = 18 (left: 11 18)\n18 - 11 = 7\nPossible next steps:\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 + 11 = 22 (left: 7 22)\n7 + 22 = 29\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 + 11 = 22 (left: 7 22)\n22 - 7 = 15\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 + 11 = 22 (left: 7 22)\n22 / 7 = 3 (left: 3 7)\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 + 11 = 22 (left: 7 22)\nPossible next steps:\n",
+                    "7 + 4 = 11 (left: 7 11 11)\nInput: 7 11 11\n11 + 11 = 22 (left: 7 22)\nInput: 7 22\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 / 7 = 2\nInput: 14 / 7 = 2\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 / 7 = 2\nPossible next steps:\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 / 7 = 2\n2 + 2 = 4\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 / 7 = 2\n2 * 2 = 4\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 / 7 = 2\n2 - 2 = 0\n"
+                ],
+                "values": [
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0
+                ],
+                "select_new_ys": [
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\nInput: 14 - 7 = 7\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\nPossible next steps:\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n7 + 7 = 14\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n7 * 7 = 49\n",
+                    "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n7 - 7 = 0\n"
+                ]
+            }
+        ],
+        "idx": 818,
+        "ys": [
+            "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\nInput: 14 - 7 = 7\n",
+            "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\nPossible next steps:\n",
+            "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n7 + 7 = 14\n",
+            "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n7 * 7 = 49\n",
+            "11 - 4 = 7 (left: 7 7 7)\n7 + 7 = 14 (left: 7 14)\n14 - 7 = 7\n7 - 7 = 0\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 31933,
+            "prompt_tokens": 81168,
+            "cost": 4.35102
+        },
+        "time_spent": 615.4571099281311
+    },
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "2 3 8 12",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "8 * 2 = 16 (left: 3 12 16)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n",
+                    "Input: 2 3 8 12\n"
+                ],
+                "values": [
+                    20.002,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.001
+                ],
+                "select_new_ys": [
+                    "8 * 2 = 16 (left: 3 12 16)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n",
+                    "Input: 2 3 8 12\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "2 3 8 12",
+                "ys": [
+                    "8 * 2 = 16 (left: 3 12 16)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n",
+                    "Input: 2 3 8 12\n"
+                ],
+                "new_ys": [
+                    "8 * 2 = 16 (left: 3 12 16)\n16 - 3 = 13 (left: 12 13)\n",
+                    "8 * 2 = 16 (left: 3 12 16)\n12 + 3 = 15 (left: 15 16) \n",
+                    "8 * 2 = 16 (left: 3 12 16)\nPossible next steps:\n",
+                    "8 * 2 = 16 (left: 3 12 16)\n12 / 3 = 4 (left: 4 16)\n",
+                    "8 * 2 = 16 (left: 3 12 16)\n16 + 3 = 19 (left: 12 19)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n8 + 6 = 14 (left: 3 14)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\nPossible next steps:\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n8 + 3 = 11 (left: 6 11)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n12 + 3 = 15 (left: 10 15)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n10 / 3 = 3 (left: 3 12)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n12 / 3 = 4 (left: 4 10)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\nPossible next steps:\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n3 + 10 = 13 (left: 12 13)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n3 + 8 = 11 (left: 10 11)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n8 / 3 = 2 (left: 2 10)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\nPossible next steps:\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n8 - 3 = 5 (left: 5 10)\n",
+                    "Input: 2 3 8 12\n2 + 3 = 5 (left: 5 8 12)\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n",
+                    "Input: 2 3 8 12\nPossible next steps:\n",
+                    "Input: 2 3 8 12\n12 - 2 = 10 (left: 3 8 10)\n",
+                    "Input: 2 3 8 12\n12 - 3 = 9 (left: 2 8 9)\n"
+                ],
+                "values": [
+                    1.001,
+                    2.001,
+                    0.0,
+                    0.003,
+                    1.002,
+                    21.001,
+                    40.0,
+                    0.003,
+                    0.0,
+                    0.003,
+                    3.0,
+                    20.002,
+                    20.002,
+                    0.0,
+                    1.001,
+                    0.003,
+                    0.002,
+                    0.0,
+                    40.001,
+                    0.002,
+                    1.001,
+                    60.0,
+                    0.0,
+                    0.003,
+                    1.002
+                ],
+                "select_new_ys": [
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n10 / 3 = 3 (left: 3 12)\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "2 3 8 12",
+                "ys": [
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n10 / 3 = 3 (left: 3 12)\n"
+                ],
+                "new_ys": [
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\nPossible next steps:\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 - 4 = 4 (left: 2 4)\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n2 * 4 = 8 (left: 8 8)\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\nInput: 2 4 8\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n8 / 3 = 2 (left: 2)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 + 8 = 11\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n8 - 3 = 5\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\nInput: 3 8\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n8 * 9 = 72\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\nPossible next steps:\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\nInput: 8 9\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n9 - 8 = 1\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n8 + 9 = 17\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\nInput: 8 18\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\nPossible next steps:\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n8 + 18 = 26\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n18 - 8 = 10\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n18 / 8 = 2.25\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n10 / 3 = 3 (left: 3 12)\nInput: 3 12\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n10 / 3 = 3 (left: 3 12)\nPossible next steps:\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n10 / 3 = 3 (left: 3 12)\n3 + 12 = 15 (left: 15)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n10 / 3 = 3 (left: 3 12)\n12 / 3 = 4 (left: 4)\n",
+                    "8 + 2 = 10 (left: 3 10 12)\n10 / 3 = 3 (left: 3 12)\n12 - 3 = 9 (left: 9)\n"
+                ],
+                "values": [
+                    0.0,
+                    0.003,
+                    40.001,
+                    0.003,
+                    0.003,
+                    0.003,
+                    60.0,
+                    0.003,
+                    0.003,
+                    0.0,
+                    20.0,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.001,
+                    0.0,
+                    0.003,
+                    0.003,
+                    40.001,
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.002
+                ],
+                "select_new_ys": [
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 - 4 = 4 (left: 2 4)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n18 / 8 = 2.25\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n8 * 9 = 72\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "2 3 8 12",
+                "ys": [
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 - 4 = 4 (left: 2 4)\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n18 / 8 = 2.25\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n8 * 9 = 72\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\n"
+                ],
+                "new_ys": [
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\nInput: 3 * 8 = 24\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\nPossible next steps:\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\n24\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 - 4 = 4 (left: 2 4)\nInput: 2 4\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 - 4 = 4 (left: 2 4)\nPossible next steps:\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 - 4 = 4 (left: 2 4)\n2 + 4 = 6\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 - 4 = 4 (left: 2 4)\n4 - 2 = 2\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 - 4 = 4 (left: 2 4)\n2 * 4 = 8\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n18 / 8 = 2.25\n18 - 2.25 = 15.75\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n18 / 8 = 2.25\n2 + 2.25 = 4.25\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n18 / 8 = 2.25\nPossible next steps:\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n18 / 8 = 2.25\nInput: 18 / 8 = 2.25\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 * 3 = 18 (left: 8 18)\n18 / 8 = 2.25\n2 * 2.25 = 4.5\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n8 * 9 = 72\n72 - 8 = 64\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n8 * 9 = 72\n72 / 9 = 8\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n8 * 9 = 72\nInput: 8 * 9 = 72\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n8 * 9 = 72\n72 / 8 = 9\n",
+                    "12 / 2 = 6 (left: 3 6 8)\n6 + 3 = 9 (left: 8 9)\n8 * 9 = 72\nPossible next steps:\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\nInput: 2 2\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\nPossible next steps:\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\n2 + 2 = 4 (left: 4)\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\n2 * 2 = 4 (left: 4)\n"
+                ],
+                "values": [
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0.0,
+                    0.003,
+                    0.003
+                ],
+                "select_new_ys": [
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\n2 + 2 = 4 (left: 4)\n",
+                    "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\n2 * 2 = 4 (left: 4)\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\nInput: 3 * 8 = 24\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\nPossible next steps:\n",
+                    "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\n24\n"
+                ]
+            }
+        ],
+        "idx": 819,
+        "ys": [
+            "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\n2 + 2 = 4 (left: 4)\n",
+            "Input: 2 3 8 12\n12 / 3 = 4 (left: 2 4 8)\n8 / 4 = 2 (left: 2 2)\n2 * 2 = 4 (left: 4)\n",
+            "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\nInput: 3 * 8 = 24\n",
+            "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\nPossible next steps:\n",
+            "12 - 2 = 10 (left: 3 8 10)\n10 / 3 = 3 (left: 3 8)\n3 * 8 = 24\n24\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 73403,
+            "prompt_tokens": 164994,
+            "cost": 9.354
+        },
+        "time_spent": 695.3181221485138
+    },
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "3 5 5 9",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "Input: 3 5 5 9\n",
+                    "9 / 3 = 3 (left: 3 5 5)\n",
+                    "Possible next steps:\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n",
+                    "5 + 5 = 10 (left: 3 9 10)\n"
+                ],
+                "values": [
+                    20.001,
+                    0.003,
+                    0.0,
+                    40.001,
+                    20.002
+                ],
+                "select_new_ys": [
+                    "3 * 5 = 15 (left: 5 9 15)\n",
+                    "5 + 5 = 10 (left: 3 9 10)\n",
+                    "Input: 3 5 5 9\n",
+                    "9 / 3 = 3 (left: 3 5 5)\n",
+                    "Possible next steps:\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "3 5 5 9",
+                "ys": [
+                    "3 * 5 = 15 (left: 5 9 15)\n",
+                    "5 + 5 = 10 (left: 3 9 10)\n",
+                    "Input: 3 5 5 9\n",
+                    "9 / 3 = 3 (left: 3 5 5)\n",
+                    "Possible next steps:\n"
+                ],
+                "new_ys": [
+                    "3 * 5 = 15 (left: 5 9 15)\n9 + 5 = 14 (left: 14 15)\n",
+                    "3 * 5 = 15 (left: 5 9 15)\nPossible next steps:\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n9 * 5 = 45 (left: 15 45)\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n5 + 9 = 14 (left: 14 15)\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n15 + 9 = 24 (left: 5 24)\n",
+                    "5 + 5 = 10 (left: 3 9 10)\n10 + 9 = 19 (left: 3 19)\n",
+                    "5 + 5 = 10 (left: 3 9 10)\n3 * 10 = 30 (left: 9 30)\n",
+                    "5 + 5 = 10 (left: 3 9 10)\n3 * 9 = 27 (left: 10 27)\n",
+                    "5 + 5 = 10 (left: 3 9 10)\n9 / 3 = 3 (left: 3 10)\n",
+                    "5 + 5 = 10 (left: 3 9 10)\n10 + 3 = 13 (left: 9 13)\n",
+                    "Input: 3 5 5 9\n3 + 5 = 8 (left: 5 8 9)\n",
+                    "Input: 3 5 5 9\nInput: 3 5 5 9\n",
+                    "Input: 3 5 5 9\n9 - 5 = 4 (left: 3 4 5)\n",
+                    "Input: 3 5 5 9\nPossible next steps:\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n",
+                    "9 / 3 = 3 (left: 3 5 5)\n5 - 3 = 2 (left: 2 5)\n",
+                    "9 / 3 = 3 (left: 3 5 5)\nInput: 3 5 5\n",
+                    "9 / 3 = 3 (left: 3 5 5)\n5 / 3 = 1 (left: 1 5)\n",
+                    "9 / 3 = 3 (left: 3 5 5)\nPossible next steps:\n",
+                    "9 / 3 = 3 (left: 3 5 5)\n3 + 5 = 8 (left: 5 8)\n",
+                    "Possible next steps:\n12 / 8 = 1 (left: 1 8)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n",
+                    "Possible next steps:\n12 - 8 = 4 (left: 4 8)\n",
+                    "Possible next steps:\n8 - 2 = 6 (left: 6 8 14)\n",
+                    "Possible next steps:\n12 + 8 = 20 (left: 8 20)\n"
+                ],
+                "values": [
+                    0.003,
+                    0.0,
+                    20.002,
+                    0.003,
+                    40.001,
+                    0.003,
+                    0.003,
+                    1.002,
+                    0.003,
+                    20.001,
+                    0.003,
+                    20.001,
+                    0.003,
+                    0.0,
+                    20.002,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.003,
+                    20.002,
+                    2.001,
+                    0.003,
+                    60.0
+                ],
+                "select_new_ys": [
+                    "Possible next steps:\n12 + 8 = 20 (left: 8 20)\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n15 + 9 = 24 (left: 5 24)\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n9 * 5 = 45 (left: 15 45)\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "3 5 5 9",
+                "ys": [
+                    "Possible next steps:\n12 + 8 = 20 (left: 8 20)\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n15 + 9 = 24 (left: 5 24)\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n9 * 5 = 45 (left: 15 45)\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n"
+                ],
+                "new_ys": [
+                    "Possible next steps:\n12 + 8 = 20 (left: 8 20)\n8 + 20 = 28\n",
+                    "Possible next steps:\n12 + 8 = 20 (left: 8 20)\nPossible next steps:\n",
+                    "Possible next steps:\n12 + 8 = 20 (left: 8 20)\n20 / 8 = 2.5\n",
+                    "Possible next steps:\n12 + 8 = 20 (left: 8 20)\nInput: 8 20\n",
+                    "Possible next steps:\n12 + 8 = 20 (left: 8 20)\n8 * 20 = 160\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n15 + 9 = 24 (left: 5 24)\n5 + 24 = 29\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n15 + 9 = 24 (left: 5 24)\nPossible next steps:\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n15 + 9 = 24 (left: 5 24)\n24 - 5 = 19\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n15 + 9 = 24 (left: 5 24)\nInput: 5 24\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n15 + 9 = 24 (left: 5 24)\n24 / 5 = 4\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n9 * 5 = 45 (left: 15 45)\n45 - 15 = 30\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n9 * 5 = 45 (left: 15 45)\nInput: 15 45\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n9 * 5 = 45 (left: 15 45)\n15 * 45 = 675\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n9 * 5 = 45 (left: 15 45)\n45 / 15 = 3\n",
+                    "3 * 5 = 15 (left: 5 9 15)\n9 * 5 = 45 (left: 15 45)\nPossible next steps:\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n10 - 3 = 7 (left: 7 9)\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n10 - 9 = 1 (left: 1 3)\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n10 / 9 = 1 (left: 1 3)\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n3 * 9 = 27 (left: 10 27)\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\nInput: 3 9 10\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n8 + 14 = 22 (left: 16 22)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n16 / 8 = 2 (left: 2 14)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\nPossible next steps:\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 + 16 = 30 (left: 8 30)\n"
+                ],
+                "values": [
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.001,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.003,
+                    1.002,
+                    0.002,
+                    1.002,
+                    20.001,
+                    40.001,
+                    0.0,
+                    40.001
+                ],
+                "select_new_ys": [
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 + 16 = 30 (left: 8 30)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n16 / 8 = 2 (left: 2 14)\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n3 * 9 = 27 (left: 10 27)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n8 + 14 = 22 (left: 16 22)\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "3 5 5 9",
+                "ys": [
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 + 16 = 30 (left: 8 30)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n16 / 8 = 2 (left: 2 14)\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n3 * 9 = 27 (left: 10 27)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n8 + 14 = 22 (left: 16 22)\n"
+                ],
+                "new_ys": [
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\nInput: 6 16\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\nPossible next steps:\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n6 + 16 = 22\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n16 / 6 = 2 (left: 2 6)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n16 - 6 = 10\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 + 16 = 30 (left: 8 30)\nInput: 8 30\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 + 16 = 30 (left: 8 30)\nPossible next steps:\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 + 16 = 30 (left: 8 30)\n8 * 30 = 240 (left: 240)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 + 16 = 30 (left: 8 30)\n30 / 8 = 3.75 (left: 3.75)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 + 16 = 30 (left: 8 30)\n30 - 8 = 22 (left: 22)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n16 / 8 = 2 (left: 2 14)\n2 + 14 = 16\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n16 / 8 = 2 (left: 2 14)\nInput: 2 14\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n16 / 8 = 2 (left: 2 14)\nPossible next steps:\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n16 / 8 = 2 (left: 2 14)\n2 * 14 = 28\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n16 / 8 = 2 (left: 2 14)\n14 / 2 = 7\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n3 * 9 = 27 (left: 10 27)\n10 * 27 = 270\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n3 * 9 = 27 (left: 10 27)\nPossible next steps:\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n3 * 9 = 27 (left: 10 27)\nInput: 10 27\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n3 * 9 = 27 (left: 10 27)\n27 / 10 = 2.7\n",
+                    "Input: 3 5 5 9\n5 + 5 = 10 (left: 3 9 10)\n3 * 9 = 27 (left: 10 27)\n27 - 10 = 17\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n8 + 14 = 22 (left: 16 22)\nInput: 16 22\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n8 + 14 = 22 (left: 16 22)\nPossible next steps:\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n8 + 14 = 22 (left: 16 22)\n22 / 16 = 1 (left: 1 16)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n8 + 14 = 22 (left: 16 22)\n16 + 22 = 38\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n8 + 14 = 22 (left: 16 22)\n16 * 22 = 352\n"
+                ],
+                "values": [
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0
+                ],
+                "select_new_ys": [
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\nInput: 6 16\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\nPossible next steps:\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n6 + 16 = 22\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n16 / 6 = 2 (left: 2 6)\n",
+                    "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n16 - 6 = 10\n"
+                ]
+            }
+        ],
+        "idx": 820,
+        "ys": [
+            "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\nInput: 6 16\n",
+            "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\nPossible next steps:\n",
+            "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n6 + 16 = 22\n",
+            "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n16 / 6 = 2 (left: 2 6)\n",
+            "Possible next steps:\n2 * 8 = 16 (left: 8 14 16)\n14 - 8 = 6 (left: 6 16)\n16 - 6 = 10\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 110632,
+            "prompt_tokens": 253208,
+            "cost": 14.23416
+        },
+        "time_spent": 631.4016990661621
+    },
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "5 6 7 12",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "12 - 6 = 6 (left: 5 6 6)\n",
+                    "12 / 6 = 2 (left: 2 5 7)\n",
+                    "6 * 5 = 30 (left: 7 12 30)\n",
+                    "12 - 7 = 5 (left: 5 6 5)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n"
+                ],
+                "values": [
+                    3.0,
+                    21.001,
+                    0.002,
+                    21.001,
+                    0.002
+                ],
+                "select_new_ys": [
+                    "12 / 6 = 2 (left: 2 5 7)\n",
+                    "12 - 7 = 5 (left: 5 6 5)\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n",
+                    "6 * 5 = 30 (left: 7 12 30)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "5 6 7 12",
+                "ys": [
+                    "12 / 6 = 2 (left: 2 5 7)\n",
+                    "12 - 7 = 5 (left: 5 6 5)\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n",
+                    "6 * 5 = 30 (left: 7 12 30)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n"
+                ],
+                "new_ys": [
+                    "12 / 6 = 2 (left: 2 5 7)\nPossible next steps:\n",
+                    "12 / 6 = 2 (left: 2 5 7)\n7 - 2 = 5 (left: 5 5 7)\n",
+                    "12 / 6 = 2 (left: 2 5 7)\n2 + 5 = 7 (left: 7 7)\n",
+                    "12 / 6 = 2 (left: 2 5 7)\n7 - 5 = 2 (left: 2 2 7)\n",
+                    "12 / 6 = 2 (left: 2 5 7)\n7 / 2 = 3.5 (left: 3.5 5 7)\n",
+                    "12 - 7 = 5 (left: 5 6 5)\n6 - 5 = 1 (left: 1 5)\n",
+                    "12 - 7 = 5 (left: 5 6 5)\nInput: 5 6 5\n",
+                    "12 - 7 = 5 (left: 5 6 5)\n5 * 6 = 30 (left: 30)\n",
+                    "12 - 7 = 5 (left: 5 6 5)\n5 - 6 = -1 (left: -1 5)\n",
+                    "12 - 7 = 5 (left: 5 6 5)\nPossible next steps:\n",
+                    "12 - 6 = 6 (left: 5 6 6)\nInput: 5 6 6\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n5 + 6 = 11 (left: 6 11)\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n6 / 5 = 1 (left: 1 6)\n",
+                    "12 - 6 = 6 (left: 5 6 6)\nPossible next steps:\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n6 + 6 = 12 (left: 5 12)\n",
+                    "6 * 5 = 30 (left: 7 12 30)\n30 - 7 = 23 (left: 12 23)\n",
+                    "6 * 5 = 30 (left: 7 12 30)\nPossible next steps:\n",
+                    "6 * 5 = 30 (left: 7 12 30)\n30 / 12 = 2.5 (left: 2.5 7 30)\n",
+                    "6 * 5 = 30 (left: 7 12 30)\n12 * 7 = 84 (left: 30 84)\n",
+                    "6 * 5 = 30 (left: 7 12 30)\nInput: 7 12 30\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nPossible next steps:\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n6 + 12 = 18 (left: 12 18)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n"
+                ],
+                "values": [
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.002,
+                    1.002,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.0,
+                    40.001,
+                    0.003,
+                    0.0,
+                    0.002,
+                    0.003,
+                    0.003,
+                    0.0,
+                    40.001,
+                    60.0,
+                    40.001,
+                    20.002
+                ],
+                "select_new_ys": [
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n6 + 6 = 12 (left: 5 12)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n6 + 12 = 18 (left: 12 18)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "5 6 7 12",
+                "ys": [
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n6 + 6 = 12 (left: 5 12)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n6 + 12 = 18 (left: 12 18)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n"
+                ],
+                "new_ys": [
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n12 - 6 = 6 (left: 6 6)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\nInput: 6 12\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\nPossible next steps:\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n6 + 12 = 18\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n6 * 12 = 72\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n6 + 6 = 12 (left: 5 12)\nInput: 5 12\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n6 + 6 = 12 (left: 5 12)\nPossible next steps:\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n6 + 6 = 12 (left: 5 12)\n5 + 12 = 17\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n6 + 6 = 12 (left: 5 12)\n12 / 5 = 2 (left: 2 5)\n",
+                    "12 - 6 = 6 (left: 5 6 6)\n6 + 6 = 12 (left: 5 12)\n12 - 5 = 7\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n6 + 12 = 18 (left: 12 18)\nPossible next steps:\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n6 + 12 = 18 (left: 12 18)\n18 - 12 = 6\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n6 + 12 = 18 (left: 12 18)\n18 / 12 = 1 (left: 1)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n6 + 12 = 18 (left: 12 18)\n12 + 18 = 30\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n6 + 12 = 18 (left: 12 18)\n12 * 18 = 216\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \nInput: 12 18\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \nPossible next steps:\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n12 + 18 = 30\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n12 * 18 = 216\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n18 / 12 = 1 (left: 1 18)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\nInput: 6 12 12\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 + 6 = 18 (left: 12 18)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 / 6 = 2 (left: 2 12)  \n"
+                ],
+                "values": [
+                    20.002,
+                    0.003,
+                    0.0,
+                    20.001,
+                    60.0,
+                    0.003,
+                    0.0,
+                    0.001,
+                    0.003,
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.003,
+                    20.002,
+                    20.002,
+                    0.003,
+                    0.0,
+                    20.002,
+                    20.002,
+                    22.0,
+                    40.001,
+                    20.002,
+                    60.0,
+                    40.001,
+                    0.003
+                ],
+                "select_new_ys": [
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n6 * 12 = 72\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 + 6 = 18 (left: 12 18)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n18 / 12 = 1 (left: 1 18)\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "5 6 7 12",
+                "ys": [
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n6 * 12 = 72\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 + 6 = 18 (left: 12 18)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n18 / 12 = 1 (left: 1 18)\n"
+                ],
+                "new_ys": [
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n6 * 12 = 72\n72 / 12 = 6\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n6 * 12 = 72\n72 + 6 = 78\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n6 * 12 = 72\n72 / 6 = 12\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n6 * 12 = 72\n72 - 6 = 66\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 - 6 = 6 (left: 6 12)\n6 * 12 = 72\nInput: 6 * 12 = 72\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\nInput: 6 12\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\nPossible next steps:\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\n6 + 12 = 18\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\n12 / 6 = 2\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\n12 - 6 = 6\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\n12 * 18 = 216\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\nPossible next steps:\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\nInput: 12 18\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\n12 + 18 = 30\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\n18 - 12 = 6\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 + 6 = 18 (left: 12 18)\n12 + 18 = 30\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 + 6 = 18 (left: 12 18)\nPossible next steps:\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 + 6 = 18 (left: 12 18)\n18 / 12 = 1 (left: 1)\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 + 6 = 18 (left: 12 18)\nInput: 12 18\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 + 6 = 18 (left: 12 18)\n18 - 12 = 6\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n18 / 12 = 1 (left: 1 18)\nInput: 1 18\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n18 / 12 = 1 (left: 1 18)\nPossible next steps:\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n18 / 12 = 1 (left: 1 18)\n18 + 1 = 19\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n18 / 12 = 1 (left: 1 18)\n18 - 1 = 17\n",
+                    "7 + 5 = 12 (left: 6 12 12)\n12 + 6 = 18 (left: 12 18)  \n18 / 12 = 1 (left: 1 18)\n1 * 18 = 18\n"
+                ],
+                "values": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.003,
+                    0.0,
+                    20.001,
+                    0,
+                    0,
+                    20.002,
+                    0.0,
+                    0.003,
+                    20.002,
+                    0.003,
+                    20.002,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0
+                ],
+                "select_new_ys": [
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\n12 * 18 = 216\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\n12 + 18 = 30\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 + 6 = 18 (left: 12 18)\n12 + 18 = 30\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\n6 + 12 = 18\n",
+                    "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\nInput: 6 12\n"
+                ]
+            }
+        ],
+        "idx": 821,
+        "ys": [
+            "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\n12 * 18 = 216\n",
+            "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n6 + 12 = 18 (left: 12 18)\n12 + 18 = 30\n",
+            "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 + 6 = 18 (left: 12 18)\n12 + 18 = 30\n",
+            "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\n6 + 12 = 18\n",
+            "7 + 5 = 12 (left: 6 12 12)\nInput: 6 12 12\n12 - 6 = 6 (left: 6 12)\nInput: 6 12\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 134777,
+            "prompt_tokens": 319258,
+            "cost": 17.664359999999995
+        },
+        "time_spent": 418.5100119113922
+    },
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "2 3 4 4",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "4 + 4 = 8 (left: 2 3 8)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n",
+                    "Possible next steps:\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n",
+                    "4 / 2 = 2 (left: 2 3 2)\n"
+                ],
+                "values": [
+                    0.003,
+                    41.0,
+                    0.0,
+                    0.003,
+                    0.003
+                ],
+                "select_new_ys": [
+                    "3 * 2 = 6 (left: 4 4 6)\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n",
+                    "4 / 2 = 2 (left: 2 3 2)\n",
+                    "Possible next steps:\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "2 3 4 4",
+                "ys": [
+                    "3 * 2 = 6 (left: 4 4 6)\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n",
+                    "4 / 2 = 2 (left: 2 3 2)\n",
+                    "Possible next steps:\n"
+                ],
+                "new_ys": [
+                    "3 * 2 = 6 (left: 4 4 6)\nPossible next steps:\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 - 4 = 2 (left: 2 4 4)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n",
+                    "4 + 4 = 8 (left: 2 3 8)\nInput: 2 3 8\n",
+                    "4 + 4 = 8 (left: 2 3 8)\nPossible next steps:\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n2 + 3 = 5 (left: 5 8)\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n8 - 2 = 6 (left: 3 6)\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n3 * 2 = 6 (left: 6 8)\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n1 + 2 = 3 (left: 3 4)\n",
+                    "4 - 3 = 1 (left: 1 2 4)\nPossible next steps:\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n4 / 2 = 2 (left: 1 2)\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n4 - 2 = 2 (left: 1 2)\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n2 * 4 = 8 (left: 1 8)\n",
+                    "4 / 2 = 2 (left: 2 3 2)\nPossible next steps:\n",
+                    "4 / 2 = 2 (left: 2 3 2)\n2 + 3 = 5 (left: 2 5)\n",
+                    "4 / 2 = 2 (left: 2 3 2)\n2 * 3 = 6 (left: 2 6)\n",
+                    "4 / 2 = 2 (left: 2 3 2)\nInput: 2 3 2\n",
+                    "4 / 2 = 2 (left: 2 3 2)\n3 * 2 = 6 (left: 6 2)\n",
+                    "Possible next steps:\n\n",
+                    "Possible next steps:\nPossible next steps:\n",
+                    "Possible next steps:\n14 + 2 = 16 (left: 8 8 16)\n",
+                    "Possible next steps:\n9 + 4 = 13 (left: 5 6 13)\n",
+                    "Possible next steps:\n2 + 8 = 10 (left: 8 10 14)\n"
+                ],
+                "values": [
+                    0.0,
+                    20.002,
+                    0.002,
+                    40.001,
+                    20.002,
+                    0.001,
+                    0.0,
+                    0.003,
+                    20.002,
+                    1.002,
+                    20.002,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.0,
+                    0.003,
+                    0,
+                    0.001,
+                    20.002,
+                    0.0,
+                    0.0,
+                    1.002,
+                    20.002,
+                    1.002
+                ],
+                "select_new_ys": [
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n8 - 2 = 6 (left: 3 6)\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n1 + 2 = 3 (left: 3 4)\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "2 3 4 4",
+                "ys": [
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n8 - 2 = 6 (left: 3 6)\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n1 + 2 = 3 (left: 3 4)\n"
+                ],
+                "new_ys": [
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\n6 * 16 = 96\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\n16 - 6 = 10\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\n16 / 6 = 2 (left: 2)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\n6 + 16 = 22\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n6 / 1 = 6 (left: 6 6) \n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n1 * 6 = 6 (left: 6 6)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n6 + 1 = 7 (left: 6 7)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n1 + 6 = 7 (left: 6 7)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n6 - 1 = 5 (left: 5 6)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 + 10 = 14\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n10 - 4 = 6\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\nInput: 4 10\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n10 / 4 = 2.5\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n8 - 2 = 6 (left: 3 6)\nPossible next steps:\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n8 - 2 = 6 (left: 3 6)\n3 + 6 = 9\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n8 - 2 = 6 (left: 3 6)\n3 * 6 = 18\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n8 - 2 = 6 (left: 3 6)\n6 / 3 = 2\n",
+                    "4 + 4 = 8 (left: 2 3 8)\n8 - 2 = 6 (left: 3 6)\nInput: 3 6\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n1 + 2 = 3 (left: 3 4)\nPossible next steps:\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n1 + 2 = 3 (left: 3 4)\n3 + 4 = 7\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n1 + 2 = 3 (left: 3 4)\n4 / 3 = 1 (with a remainder of 1)\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n1 + 2 = 3 (left: 3 4)\n3 * 4 = 12\n",
+                    "4 - 3 = 1 (left: 1 2 4)\n1 + 2 = 3 (left: 3 4)\n4 - 3 = 1\n"
+                ],
+                "values": [
+                    0.003,
+                    20.002,
+                    0.003,
+                    0.003,
+                    0.003,
+                    20.002,
+                    20.002,
+                    20.001,
+                    20.001,
+                    0.002,
+                    60.0,
+                    0.003,
+                    0.003,
+                    0.002,
+                    20.002,
+                    0.0,
+                    0.003,
+                    0.003,
+                    20.002,
+                    0.0,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003
+                ],
+                "select_new_ys": [
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n6 / 1 = 6 (left: 6 6) \n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n1 * 6 = 6 (left: 6 6)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n10 / 4 = 2.5\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "2 3 4 4",
+                "ys": [
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n6 / 1 = 6 (left: 6 6) \n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n1 * 6 = 6 (left: 6 6)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n10 / 4 = 2.5\n"
+                ],
+                "new_ys": [
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\nPossible next steps:\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n40 + 4 = 44\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n40 / 4 = 10\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n40 / 10 = 4\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n40 - 4 = 36\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\nInput: 6 16\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\nPossible next steps:\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\n6 * 16 = 96\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\n16 / 6 = 2 (left: 2 6)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\n16 - 6 = 10 (left: 6 10)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n6 / 1 = 6 (left: 6 6) \nInput: 6 6\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n6 / 1 = 6 (left: 6 6) \n6 - 6 = 0\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n6 / 1 = 6 (left: 6 6) \n6 * 6 = 36\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n6 / 1 = 6 (left: 6 6) \n6 + 6 = 12\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n6 / 1 = 6 (left: 6 6) \nPossible next steps:\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n1 * 6 = 6 (left: 6 6)\n6 * 6 = 36\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n1 * 6 = 6 (left: 6 6)\n6 - 6 = 0\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n1 * 6 = 6 (left: 6 6)\nInput: 6 6\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n1 * 6 = 6 (left: 6 6)\n6 / 6 = 1\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 / 4 = 1 (left: 1 6 6)\n1 * 6 = 6 (left: 6 6)\nPossible next steps:\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n10 / 4 = 2.5\nInput: 10 / 4 = 2.5\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n10 / 4 = 2.5\nPossible next steps:\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n10 / 4 = 2.5\n2.5 * 4 = 10 (left: 10)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n10 / 4 = 2.5\n10 + 2.5 = 12.5 (left: 12.5)\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n10 / 4 = 2.5\n10 - 2.5 = 7.5 (left: 7.5)\n"
+                ],
+                "values": [
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    20.002,
+                    0.0,
+                    0.003,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0
+                ],
+                "select_new_ys": [
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\nInput: 6 16\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\n6 * 16 = 96\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\nPossible next steps:\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n40 + 4 = 44\n",
+                    "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n40 / 4 = 10\n"
+                ]
+            }
+        ],
+        "idx": 822,
+        "ys": [
+            "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\nInput: 6 16\n",
+            "3 * 2 = 6 (left: 4 4 6)\n4 * 4 = 16 (left: 6 16)\nInput: 6 16\n6 * 16 = 96\n",
+            "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\nPossible next steps:\n",
+            "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n40 + 4 = 44\n",
+            "3 * 2 = 6 (left: 4 4 6)\n6 + 4 = 10 (left: 4 10)\n4 * 10 = 40\n40 / 4 = 10\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 161082,
+            "prompt_tokens": 388582,
+            "cost": 21.322379999999995
+        },
+        "time_spent": 472.37918615341187
+    },
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "3 3 3 9",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\n",
+                    "9 / 3 = 3 (left: 3 3 3)\n",
+                    "Possible next steps:\n",
+                    "3 * 3 = 9 (left: 3 9 9)\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n"
+                ],
+                "values": [
+                    21.001,
+                    0.002,
+                    0.0,
+                    0.003,
+                    0.002
+                ],
+                "select_new_ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\n",
+                    "3 * 3 = 9 (left: 3 9 9)\n",
+                    "9 / 3 = 3 (left: 3 3 3)\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n",
+                    "Possible next steps:\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "3 3 3 9",
+                "ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\n",
+                    "3 * 3 = 9 (left: 3 9 9)\n",
+                    "9 / 3 = 3 (left: 3 3 3)\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n",
+                    "Possible next steps:\n"
+                ],
+                "new_ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \n",
+                    "9 - 3 = 6 (left: 3 3 6)\n6 - 3 = 3 (left: 3 3 3)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nPossible next steps:\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n",
+                    "3 * 3 = 9 (left: 3 9 9)\nInput: 3 9 9\n",
+                    "3 * 3 = 9 (left: 3 9 9)\n9 - 3 = 6 (left: 6 9 9)\n",
+                    "3 * 3 = 9 (left: 3 9 9)\n9 / 3 = 3 (left: 3 9 9)  \n",
+                    "3 * 3 = 9 (left: 3 9 9)\n9 * 3 = 27 (left: 9 27)\n",
+                    "3 * 3 = 9 (left: 3 9 9)\n3 + 9 = 12 (left: 9 9 12)\n",
+                    "9 / 3 = 3 (left: 3 3 3)\n3 * 3 = 9 (left: 9)\n",
+                    "9 / 3 = 3 (left: 3 3 3)\n3 / 3 = 1 (left: 1 3)\n",
+                    "9 / 3 = 3 (left: 3 3 3)\nInput: 3 3 3\n",
+                    "9 / 3 = 3 (left: 3 3 3)\n3 - 3 = 0 (left: 0 3)\n",
+                    "9 / 3 = 3 (left: 3 3 3)\nPossible next steps:\n",
+                    "3 + 3 = 6 (left: 3 6 9)\nInput: 3 6 9\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n6 * 3 = 18 (left: 9 18)\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 / 3 = 3 (left: 3 6)\n",
+                    "3 + 3 = 6 (left: 3 6 9)\nPossible next steps:\n",
+                    "Possible next steps:\nPossible next steps:\n",
+                    "Possible next steps:\n8 * 8 = 64 (left: 12 64)\n",
+                    "Possible next steps:\n8 - 8 = 0 (left: 0 12)\n",
+                    "Possible next steps:\nInput: 8 8 12\n",
+                    "Possible next steps:\n12 - 8 = 4 (left: 4 8)\n"
+                ],
+                "values": [
+                    40.001,
+                    20.002,
+                    0.002,
+                    0.0,
+                    60.0,
+                    0.001,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.002,
+                    0.003,
+                    0.001,
+                    0.003,
+                    0.0,
+                    0.002,
+                    20.002,
+                    40.001,
+                    20.002,
+                    0.0,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.001,
+                    2.001
+                ],
+                "select_new_ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n6 * 3 = 18 (left: 9 18)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "3 3 3 9",
+                "ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n6 * 3 = 18 (left: 9 18)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\n"
+                ],
+                "new_ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\nInput: 6 9\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n6 + 9 = 15\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\nPossible next steps:\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n9 - 6 = 3\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n6 - 3 = 3 (left: 3 3 3)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n3 * 3 = 9 (left: 6 9)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n6 / 3 = 2 (left: 2 3 3)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nPossible next steps: \n",
+                    "3 + 3 = 6 (left: 3 6 9)\n6 * 3 = 18 (left: 9 18)\nInput: 9 18\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n6 * 3 = 18 (left: 9 18)\nPossible next steps:\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n6 * 3 = 18 (left: 9 18)\n9 + 18 = 27\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n6 * 3 = 18 (left: 9 18)\n18 / 9 = 2\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n6 * 3 = 18 (left: 9 18)\n18 - 9 = 9\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \n6 + 6 = 12\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \n6 / 6 = 1\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \n6 * 6 = 36\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nPossible next steps:\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\nInput: 6 6\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\n6 + 6 = 12\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\n6 / 6 = 1\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\nPossible next steps:\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\n6 - 6 = 0\n"
+                ],
+                "values": [
+                    0.003,
+                    0.003,
+                    0.0,
+                    40.001,
+                    0.003,
+                    0.002,
+                    60.0,
+                    0.003,
+                    40.001,
+                    0.0,
+                    0.001,
+                    0.0,
+                    0.002,
+                    0.003,
+                    0.003,
+                    20.001,
+                    0.003,
+                    40.0,
+                    0.003,
+                    0.0,
+                    40.0,
+                    20.001,
+                    0.003,
+                    0.0,
+                    60.0
+                ],
+                "select_new_ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n3 * 3 = 9 (left: 6 9)\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\n6 - 6 = 0\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "3 3 3 9",
+                "ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n3 * 3 = 9 (left: 6 9)\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\n6 - 6 = 0\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\n"
+                ],
+                "new_ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n3 * 3 = 9 (left: 6 9)\nPossible next steps:\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n3 * 3 = 9 (left: 6 9)\nInput: 6 9\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n3 * 3 = 9 (left: 6 9)\n9 / 6 = 1 (left: 1 6)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n3 * 3 = 9 (left: 6 9)\n9 - 6 = 3\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\n6 - 6 = 0\nInput: 6 - 6 = 0\n",
+                    "3 + 3 = 6 (left: 3 6 9)\n9 - 3 = 6 (left: 6 6)\n6 - 6 = 0\nPossible next steps:\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\n54 / 6 = 9\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\n54 + 6 = 60\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\nInput: 6 * 9 = 54\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\nPossible next steps:\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\n54 - 6 = 48\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\n3 + 3 = 6 (left: 6 6)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\nPossible next steps:\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\n6 - 3 = 3 (left: 3 3 3)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\n6 / 3 = 2 (left: 2 3 3)\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\nInput: 3 3 6\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\nPossible next steps:\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\n6 / 6 = 1\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\nInput: 6 6\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\n6 - 6 = 0\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\n6 * 6 = 36\n"
+                ],
+                "values": [
+                    40.001,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    20.002,
+                    0.0,
+                    0.002,
+                    0.003,
+                    40.001,
+                    0.0,
+                    0.003,
+                    40.0,
+                    60.0,
+                    0.003
+                ],
+                "select_new_ys": [
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\n6 - 6 = 0\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\nInput: 3 3 6\n",
+                    "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\nInput: 6 6\n",
+                    "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\n3 + 3 = 6 (left: 6 6)\n"
+                ]
+            }
+        ],
+        "idx": 823,
+        "ys": [
+            "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\n6 - 6 = 0\n",
+            "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\n3 * 3 = 9 (left: 6 9)\n6 * 9 = 54\n",
+            "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\nInput: 3 3 6\n",
+            "9 - 3 = 6 (left: 3 3 6)\n3 + 3 = 6 (left: 6 6)  \nInput: 6 6\nInput: 6 6\n",
+            "9 - 3 = 6 (left: 3 3 6)\nInput: 3 3 6\nInput: 3 3 6\n3 + 3 = 6 (left: 6 6)\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 180091,
+            "prompt_tokens": 440396,
+            "cost": 24.01734
+        },
+        "time_spent": 380.8257899284363
+    },
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "1 2 7 9",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "2 * 7 = 14 (left: 1 9 14)\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n",
+                    "Input: 1 2 7 9\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n",
+                    "7 + 1 = 8 (left: 2 8 9)\n"
+                ],
+                "values": [
+                    1.002,
+                    21.001,
+                    0.001,
+                    0.003,
+                    1.002
+                ],
+                "select_new_ys": [
+                    "1 + 2 = 3 (left: 3 7 9)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\n",
+                    "7 + 1 = 8 (left: 2 8 9)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n",
+                    "Input: 1 2 7 9\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "1 2 7 9",
+                "ys": [
+                    "1 + 2 = 3 (left: 3 7 9)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\n",
+                    "7 + 1 = 8 (left: 2 8 9)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n",
+                    "Input: 1 2 7 9\n"
+                ],
+                "new_ys": [
+                    "1 + 2 = 3 (left: 3 7 9)\n9 - 3 = 6 (left: 6 7)\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n7 + 9 = 16 (left: 3 16)\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n9 + 3 = 12 (left: 7 12)\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n9 / 3 = 3 (left: 3 7)\n",
+                    "1 + 2 = 3 (left: 3 7 9)\nPossible next steps:\n",
+                    "2 * 7 = 14 (left: 1 9 14)\n9 / 1 = 9 (left: 9 14)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nPossible next steps:\n",
+                    "2 * 7 = 14 (left: 1 9 14)\n14 + 1 = 15 (left: 9 15)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\n14 + 9 = 23 (left: 1 23)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n",
+                    "7 + 1 = 8 (left: 2 8 9)\n2 * 8 = 16 (left: 9 16)\n",
+                    "7 + 1 = 8 (left: 2 8 9)\nPossible next steps:\n",
+                    "7 + 1 = 8 (left: 2 8 9)\n9 - 2 = 7 (left: 7 8)\n",
+                    "7 + 1 = 8 (left: 2 8 9)\n8 + 2 = 10 (left: 9 10)  \n",
+                    "7 + 1 = 8 (left: 2 8 9)\n9 + 2 = 11 (left: 8 11)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n9 - 5 = 4 (left: 1 4)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n9 / 1 = 9 (left: 5 9)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n5 + 1 = 6 (left: 6 9)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\nInput: 1 5 9\n",
+                    "Input: 1 2 7 9\n9 / 3 = 3 (left: 1 2 3)\n",
+                    "Input: 1 2 7 9\nInput: 1 2 7 9\n",
+                    "Input: 1 2 7 9\n9 - 2 = 7 (left: 1 2 7)\n",
+                    "Input: 1 2 7 9\nPossible next steps:\n",
+                    "Input: 1 2 7 9\n2 * 7 = 14 (left: 1 9 14)\n"
+                ],
+                "values": [
+                    20.001,
+                    40.001,
+                    1.002,
+                    0,
+                    0.0,
+                    0.003,
+                    0.0,
+                    0.002,
+                    0.003,
+                    20.002,
+                    0.003,
+                    0.0,
+                    1.002,
+                    0.003,
+                    1.002,
+                    60.0,
+                    0.003,
+                    20.002,
+                    60.0,
+                    0.003,
+                    0.002,
+                    0.001,
+                    0.003,
+                    0.0,
+                    1.002
+                ],
+                "select_new_ys": [
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n5 + 1 = 6 (left: 6 9)\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n7 + 9 = 16 (left: 3 16)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n9 / 1 = 9 (left: 5 9)\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "1 2 7 9",
+                "ys": [
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n5 + 1 = 6 (left: 6 9)\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n7 + 9 = 16 (left: 3 16)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n9 / 1 = 9 (left: 5 9)\n"
+                ],
+                "new_ys": [
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n9 - 6 = 3\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\nPossible next steps:\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 + 9 = 15\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\nInput: 6 9\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 * 9 = 54\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n5 + 1 = 6 (left: 6 9)\nPossible next steps:\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n5 + 1 = 6 (left: 6 9)\n6 + 9 = 15\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n5 + 1 = 6 (left: 6 9)\n9 - 6 = 3\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n5 + 1 = 6 (left: 6 9)\n6 * 9 = 54\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n5 + 1 = 6 (left: 6 9)\nInput: 6 9\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n7 + 9 = 16 (left: 3 16)\n3 * 16 = 48\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n7 + 9 = 16 (left: 3 16)\nPossible next steps:\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n7 + 9 = 16 (left: 3 16)\n16 - 3 = 13\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n7 + 9 = 16 (left: 3 16)\n3 + 16 = 19\n",
+                    "1 + 2 = 3 (left: 3 7 9)\n7 + 9 = 16 (left: 3 16)\nInput: 3 16\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n14 + 9 = 23 (left: 1 23)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n9 + 1 = 10 (left: 10 14)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n14 - 1 = 13 (left: 9 13)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n14 / 1 = 14 (left: 9 14)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n9 / 1 = 9 (left: 5 9)\n9 / 5 = 1 (left: 1 5)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n9 / 1 = 9 (left: 5 9)\n5 * 9 = 45\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n9 / 1 = 9 (left: 5 9)\nInput: 5 9\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n9 / 1 = 9 (left: 5 9)\n5 + 9 = 14\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n9 / 1 = 9 (left: 5 9)\nPossible next steps:\n"
+                ],
+                "values": [
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.002,
+                    0.003,
+                    0.0,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.002,
+                    0.003,
+                    0.0,
+                    0.002,
+                    0.003,
+                    0.003,
+                    20.002,
+                    0.003,
+                    0.003,
+                    20.001,
+                    0.003,
+                    0.003,
+                    0.002,
+                    0.003,
+                    0.003,
+                    0.0
+                ],
+                "select_new_ys": [
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n14 - 1 = 13 (left: 9 13)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n9 - 6 = 3\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 + 9 = 15\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 * 9 = 54\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "1 2 7 9",
+                "ys": [
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n14 - 1 = 13 (left: 9 13)\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n9 - 6 = 3\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 + 9 = 15\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 * 9 = 54\n"
+                ],
+                "new_ys": [
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n1 * 9 = 9 (left: 9 14)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n9 + 1 = 10 (left: 10 14)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n14 / 1 = 14 (left: 9 14)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n14 - 9 = 5 (left: 1 5)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n14 + 9 = 23 (left: 1 23)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n14 - 1 = 13 (left: 9 13)\nInput: 9 13\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n14 - 1 = 13 (left: 9 13)\nPossible next steps:\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n14 - 1 = 13 (left: 9 13)\n9 + 13 = 22\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n14 - 1 = 13 (left: 9 13)\n13 - 9 = 4\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\n14 - 1 = 13 (left: 9 13)\n9 * 13 = 117\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n9 - 6 = 3\nInput: 9 - 6 = 3\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n9 - 6 = 3\nPossible next steps:\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n9 - 6 = 3\n3 * 3 = 9\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n9 - 6 = 3\n9 + 3 = 12\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n9 - 6 = 3\n9 / 3 = 3\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 + 9 = 15\n15 + 6 = 21\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 + 9 = 15\nPossible next steps:\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 + 9 = 15\n15 / 6 = 2.5\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 + 9 = 15\n15 * 6 = 90\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 + 9 = 15\n15 - 6 = 9\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 * 9 = 54\n54 + 6 = 60\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 * 9 = 54\n54 / 6 = 9\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 * 9 = 54\nPossible next steps:\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 * 9 = 54\n54 / 9 = 6\n",
+                    "7 - 2 = 5 (left: 1 5 9)\n1 + 5 = 6 (left: 6 9)\n6 * 9 = 54\nInput: 6 * 9 = 54\n"
+                ],
+                "values": [
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0.003,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0,
+                    0,
+                    0
+                ],
+                "select_new_ys": [
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n1 * 9 = 9 (left: 9 14)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n9 + 1 = 10 (left: 10 14)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n14 / 1 = 14 (left: 9 14)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n14 - 9 = 5 (left: 1 5)\n",
+                    "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n14 + 9 = 23 (left: 1 23)\n"
+                ]
+            }
+        ],
+        "idx": 824,
+        "ys": [
+            "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n1 * 9 = 9 (left: 9 14)\n",
+            "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n9 + 1 = 10 (left: 10 14)\n",
+            "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n14 / 1 = 14 (left: 9 14)\n",
+            "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n14 - 9 = 5 (left: 1 5)\n",
+            "2 * 7 = 14 (left: 1 9 14)\nInput: 1 9 14\nInput: 1 9 14\n14 + 9 = 23 (left: 1 23)\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            },
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 199355,
+            "prompt_tokens": 503442,
+            "cost": 27.06456
+        },
+        "time_spent": 443.16205310821533
+    }
+]

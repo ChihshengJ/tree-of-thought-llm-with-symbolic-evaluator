@@ -1,3 +1,9 @@
+system_prompt = '''You are a highly intelligent machine that follows the instructions. We are going to play a 24 puzzle, and a few examples will be provided, please do not add any notes to clarify your output or make your output too verbose, just stick to the format in the examples.'''
+
+
+evaluator_prompt = '''Please generate a Python script that can solve 24 puzzles (using numbers and basic arithmetic operations (+ - * /) to obtain 24) with an command-line input with type list[int], which looks like this: [2, 4, 10], and the length would not exceed 4. The output should be a value indicate how likely this puzzle is solvable. So if it can be solved you should return 100, if not, look up the range the final results, if there is a number that's in the range of 10-40, then return 50, return 0 otherwise. Please make sure you only generate a executable Python code with a main function to take input and nothing else. Not a single word other than codes.'''
+
+
 # 5-shot
 standard_prompt = '''Use numbers and basic arithmetic operations (+ - * /) to obtain 24.
 Input: 4 4 6 8
@@ -48,6 +54,41 @@ Answer: ((5 + 5) + 5) + 9 = 24
 Input: {input}
 '''
 
+# 5-shot
+last_step_prompt = '''Use numbers and basic arithmetic operations (+ - * /) to generate an equation that equals 24 with given input and previous steps. Your answer should start with "Answer: ", and it should be consistent with the previous steps. Please remember that in the answer, there could only be 4 numbers on the left side of the equation.
+Input: 4 4 6 8
+Steps:
+4 + 8 = 12 (left: 4 6 12)
+6 - 4 = 2 (left: 2 12)
+2 * 12 = 24 (left: 24)
+Answer: (6 - 4) * (4 + 8) = 24
+Input: 2 9 10 12
+Steps:
+12 * 2 = 24 (left: 9 10 24)
+10 - 9 = 1 (left: 1 24)
+24 * 1 = 24 (left: 24)
+Answer: (12 * 2) * (10 - 9) = 24
+Input: 4 9 10 13
+Steps:
+13 - 10 = 3 (left: 3 4 9)
+9 - 3 = 6 (left: 4 6)
+4 * 6 = 24 (left: 24)
+Answer: 4 * (9 - (13 - 10)) = 24
+Input: 1 4 8 8
+Steps:
+8 / 4 = 2 (left: 1 2 8)
+1 + 2 = 3 (left: 3 8)
+3 * 8 = 24 (left: 24)
+Answer: (1 + 8 / 4) * 8 = 24
+Input: 5 5 5 9
+Steps:
+5 + 5 = 10 (left: 5 9 10)
+10 + 5 = 15 (left: 9 15)
+15 + 9 = 24 (left: 24)
+Answer: ((5 + 5) + 5) + 9 = 24
+Input: {input}
+'''
+
 # 1-shot
 propose_prompt = '''Input: 2 8 8 14
 Possible next steps:
@@ -62,6 +103,9 @@ Possible next steps:
 Input: {input}
 Possible next steps:
 '''
+
+value_system_prompt = '''You are a highly reasonable and intelligent machine that follows the instructions. The task you are about to handle is using basic arithmetic operations to evaluate whether some numbers can reach 24, and a few examples will be provided. Please do not add any notes to clarify your output besides the thought process in the examples, just strictly stick to the format in the examples.'''
+
 
 value_prompt = '''Evaluate if given numbers can reach 24 (sure/likely/impossible)
 10 14
