@@ -1,4 +1,4 @@
-# Official Repo of Tree of Thoughts (ToT)
+# My reproduction and modified version of Tree of Thoughts (ToT)
 
 <p>
     <a href="https://badge.fury.io/py/tree-of-thoughts-llm">
@@ -17,11 +17,8 @@
 
 ![teaser](pics/teaser.png)
 
-Official implementation for paper [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) with code, prompts, model outputs.
-Also check [its tweet thread](https://twitter.com/ShunyuYao12/status/1659357547474681857) in 1min.
-
-
-
+## What is new here?
+I noticed that the BFS algorithm actually functions like a beam search. It works well with advanced models (GPT-4), but for smaller models the performance can be pretty bad, and overall the inference speed is unbelivably slow. The crux of the problem is the pruning strategy. The system only used a LLM-based score strategy to do the branch pruning, which makes the BFS algorithm extremely slow because there are so many branches to score at each depth. And there is also no early stop when an answer has already been found in the tree. For some tasks, the pruning can actually done by a deterministic program, so I added an interlocked mechanism that can prompt an advanced LLM to generate a script that can be used to score the branches and some modification in the BFS algorithm so once a correct answer is found, the system would stop generating. The results show that these modifications tremendously cut down the inference time and token usage, and they also benefit the performance of smaller models.
 
 
 ## Setup
